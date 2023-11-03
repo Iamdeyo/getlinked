@@ -31,7 +31,12 @@ const Register = () => {
           </h2>
           <div className="flex gap-2 items-end mb-1">
             <p className="text-xs md:text-sm">Be part of this movement! </p>
-            <Image src={"/img/movement.png"} width={100} height={30} />
+            <Image
+              alt="movement"
+              src={"/img/movement.png"}
+              width={100}
+              height={30}
+            />
           </div>
           <p className="text-xl md:text-2xl mb-6">CREATE YOUR ACCOUNT</p>
 

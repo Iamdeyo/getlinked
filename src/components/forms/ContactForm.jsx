@@ -100,7 +100,9 @@ const ContactForm = () => {
 
         {error && (
           <p className="italic text-red-500">
-            **Please all fields are required (You can't leave any field blank)**
+            {
+              " **Please all fields are required (You can't leave any field blank)** "
+            }
           </p>
         )}
 
@@ -143,6 +145,7 @@ const SuccessMessage = () => {
             src={"/img/congratulation.png"}
             width={427}
             height={321}
+            alt="done"
             sizes="100vw"
             style={{
               width: "100%",

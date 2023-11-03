@@ -90,6 +90,7 @@ const Hero = () => {
           <Image
             src={"/img/hackathon-guy.png"}
             sizes="100vw"
+            alt="hackathon-guy"
             quality={100}
             width={419.669}
             height={367.464}

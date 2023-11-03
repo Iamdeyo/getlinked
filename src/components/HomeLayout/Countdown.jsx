@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { montserrat, unica_one } from '@/utils/fonts';
-import { useState, useEffect } from 'react';
+import { montserrat, unica_one } from "@/utils/fonts";
+import { useState, useEffect } from "react";
 
-const targetDate = new Date('November 18, 2023');
+const targetDate = new Date("November 18, 2023");
 const Countdown = () => {
   const [countdown, setCountdown] = useState({
     days: 0,
@@ -30,7 +30,7 @@ const Countdown = () => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [targetDate]);
+  }, []);
 
   const formatTime = (time) => {
     return time < 10 ? `0${time}` : time;
