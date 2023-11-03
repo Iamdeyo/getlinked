@@ -73,7 +73,7 @@ const RegisterForm = () => {
   return (
     <>
       <form
-        className="flex flex-col md:flex-row md:flex-wrap md:justify-between md:gap-0 md:gap-y-5 gap-5 text-sm "
+        className="reg-form flex flex-col md:flex-row md:flex-wrap md:justify-between md:gap-0 md:gap-y-5 gap-5 text-sm "
         onSubmit={handleSubmit}
       >
         <div className="reg-flex-col">

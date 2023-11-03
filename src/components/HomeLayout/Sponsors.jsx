@@ -53,7 +53,7 @@ const Sponsors = () => {
           className="contentSlideInUp w-full md:w-5/6 max-w-[1255]"
         >
           <Image
-            src={"/img/Sponsors.png"}
+            src={"/img/sponsors.png"}
             alt="Sponsors"
             width={1255}
             height={560}

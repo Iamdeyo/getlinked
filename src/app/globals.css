@@ -23,7 +23,7 @@ body.active-menu {
 *::-webkit-scrollbar {
   display: none;
 }
-*::-moz-selection,
+
 *::selection {
   background: #fe34b9;
   color: #fff;
@@ -225,9 +225,11 @@ select option {
 }
 .contact-form input,
 .contact-form textarea {
-  @apply appearance-none w-full bg-[#ffffff08] py-3 px-3 rounded border border-white shadow-md outline-none focus:border-light placeholder:text-[rgba(255,255,255,0.25)] resize-none;
+  @apply appearance-none w-full bg-[#ffffff08] py-3 px-3 rounded border border-white shadow-md outline-none focus:border-light placeholder:text-[rgba(255,255,255,0.25)] resize-none relative;
 }
-
+.reg-form > * {
+  @apply relative;
+}
 .animate-bounces {
   animation: bounces 2s infinite;
 }
