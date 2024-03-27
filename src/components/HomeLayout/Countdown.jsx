@@ -3,7 +3,7 @@
 import { montserrat, unica_one } from "@/utils/fonts";
 import { useState, useEffect } from "react";
 
-const targetDate = new Date("November 18, 2023");
+const targetDate = new Date("November 18, 2024");
 const Countdown = () => {
   const [countdown, setCountdown] = useState({
     days: 0,
